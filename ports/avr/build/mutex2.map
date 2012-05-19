@@ -1,0 +1,786 @@
+Archive member included because of file (symbol)
+
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mulsi3.o)
+                              build/StopWatch.o (__mulsi3)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_divmodhi4.o)
+                              build/Tracer.o (__divmodhi4)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodsi4.o)
+                              build/uart.o (__udivmodsi4)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_exit.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o (exit)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clear_bss.o)
+                              build/mutex2.o (__do_clear_bss)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodhi4.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_divmodhi4.o) (__udivmodhi4)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memcpy.o)
+                              build/atomqueue.o (memcpy)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(itoa.o)
+                              build/SerialManager.o (itoa)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ltoa.o)
+                              build/SerialManager.o (ltoa)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ultoa.o)
+                              build/SerialManager.o (ultoa)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(iob.o)
+                              build/tests-main.o (__iob)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(printf_p.o)
+                              build/mutex2.o (printf_P)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(vfprintf_std.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(printf_p.o) (vfprintf)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strnlen_P.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(vfprintf_std.o) (strnlen_P)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strnlen.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(vfprintf_std.o) (strnlen)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strrev.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(itoa.o) (strrev)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(fputc.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(vfprintf_std.o) (fputc)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ultoa_invert.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(vfprintf_std.o) (__ultoa_invert)
+
+Allocating common symbols
+Common symbol       size              file
+
+EventNumbers        0x2               build/atomkernel.o
+EventIndex          0x2               build/atomkernel.o
+EventBuffer         0x898             build/atomkernel.o
+OldTask             0x2               build/Tracer.o
+ResumedTask         0x2               build/atomkernel.o
+TaskBuffer          0x28              build/atomkernel.o
+NewTask             0x2               build/Tracer.o
+__iob               0x6               c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(iob.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00100000         xr
+data             0x00800200         0x0000fe00         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800200
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+LOAD build/mutex2.o
+LOAD build/atomport.o
+LOAD build/uart.o
+LOAD build/tests-main.o
+LOAD build/TracerPort.o
+LOAD build/StopWatch.o
+LOAD build/SerialPort.o
+LOAD build/atomport-asm.o
+LOAD build/atomkernel.o
+LOAD build/atomsem.o
+LOAD build/atommutex.o
+LOAD build/atomtimer.o
+LOAD build/atomqueue.o
+LOAD build/Tracer.o
+LOAD build/SerialManager.o
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x281e
+ *(.vectors)
+ .vectors       0x00000000       0xe4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+                0x00000000                __vectors
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+ .progmem.data  0x000000e4      0x1a0 build/mutex2.o
+ .progmem.data  0x00000284        0xa build/tests-main.o
+                0x0000028e                . = ALIGN (0x2)
+                0x0000028e                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x0000028e        0x0 linker stubs
+ *(.trampolines*)
+                0x0000028e                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000028e                __ctors_start = .
+ *(.ctors)
+                0x0000028e                __ctors_end = .
+                0x0000028e                __dtors_start = .
+ *(.dtors)
+                0x0000028e                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x0000028e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+                0x0000028e                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000028e       0x10 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000029e       0x1a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+                0x0000029e                __do_copy_data
+ .init4         0x000002b8       0x10 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clear_bss.o)
+                0x000002b8                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000002c8        0x8 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+ *(.init9)
+ *(.text)
+ .text          0x000002d0        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+                0x000002d0                __vector_38
+                0x000002d0                __vector_22
+                0x000002d0                __vector_28
+                0x000002d0                __vector_1
+                0x000002d0                __vector_32
+                0x000002d0                __vector_34
+                0x000002d0                __vector_24
+                0x000002d0                __vector_12
+                0x000002d0                __vector_55
+                0x000002d0                __vector_46
+                0x000002d0                __bad_interrupt
+                0x000002d0                __vector_6
+                0x000002d0                __vector_31
+                0x000002d0                __vector_39
+                0x000002d0                __vector_3
+                0x000002d0                __vector_23
+                0x000002d0                __vector_30
+                0x000002d0                __vector_45
+                0x000002d0                __vector_25
+                0x000002d0                __vector_11
+                0x000002d0                __vector_54
+                0x000002d0                __vector_13
+                0x000002d0                __vector_19
+                0x000002d0                __vector_56
+                0x000002d0                __vector_7
+                0x000002d0                __vector_49
+                0x000002d0                __vector_41
+                0x000002d0                __vector_43
+                0x000002d0                __vector_27
+                0x000002d0                __vector_5
+                0x000002d0                __vector_33
+                0x000002d0                __vector_47
+                0x000002d0                __vector_52
+                0x000002d0                __vector_37
+                0x000002d0                __vector_4
+                0x000002d0                __vector_44
+                0x000002d0                __vector_51
+                0x000002d0                __vector_9
+                0x000002d0                __vector_2
+                0x000002d0                __vector_21
+                0x000002d0                __vector_15
+                0x000002d0                __vector_36
+                0x000002d0                __vector_29
+                0x000002d0                __vector_40
+                0x000002d0                __vector_8
+                0x000002d0                __vector_26
+                0x000002d0                __vector_48
+                0x000002d0                __vector_14
+                0x000002d0                __vector_53
+                0x000002d0                __vector_10
+                0x000002d0                __vector_50
+                0x000002d0                __vector_16
+                0x000002d0                __vector_18
+                0x000002d0                __vector_20
+                0x000002d0                __vector_42
+ .text          0x000002d4      0x49c build/mutex2.o
+                0x00000352                test_start
+ .text          0x00000770       0xea build/atomport.o
+                0x000007ae                avrInitSystemTickTimer
+                0x00000770                archThreadContextInit
+                0x000007dc                __vector_17
+                0x000007c8                __vector_default
+ .text          0x0000085a       0x8e build/uart.o
+                0x000008a4                uart_init
+                0x0000085a                uart_putchar
+ .text          0x000008e8       0xc2 build/tests-main.o
+                0x000008e8                main
+ .text          0x000009aa        0x0 build/TracerPort.o
+ .text          0x000009aa       0xb6 build/StopWatch.o
+                0x000009aa                __vector_35
+                0x00000a12                GetTime
+                0x000009fc                InitWatch
+ .text          0x00000a60       0x26 build/SerialPort.o
+                0x00000a60                USART_Init
+                0x00000a76                USART_Transmit
+ .text          0x00000a86       0xac build/atomport-asm.o
+                0x00000af8                archFirstThreadRestore
+                0x00000a86                archContextSwitch
+ .text          0x00000b32      0x3fc build/atomkernel.o
+                0x00000de4                atomIntExit
+                0x00000dfe                atomThreadCreate
+                0x00000b32                atomIntEnter
+                0x00000ed6                atomOSInit
+                0x00000c2a                tcbDequeueEntry
+                0x00000cf2                atomOSStart
+                0x00000cac                tcbDequeuePriority
+                0x00000b66                tcbEnqueuePriority
+                0x00000d6a                atomSched
+                0x00000b46                atomCurrentContext
+                0x00000bee                tcbDequeueHead
+ .text          0x00000f2e      0x280 build/atomsem.o
+                0x00000f2e                atomSemCreate
+                0x00000fd8                atomSemDelete
+                0x00000f42                atomSemResetCount
+                0x00000f52                atomSemPut
+                0x00001064                atomSemGet
+ .text          0x000011ae      0x2e6 build/atommutex.o
+                0x00001478                atomMutexCreate
+                0x00001330                atomMutexGet
+                0x000011ae                atomMutexDelete
+                0x0000123a                atomMutexPut
+ .text          0x00001494      0x22e build/atomtimer.o
+                0x00001606                atomTimerDelay
+                0x00001494                atomTimerRegister
+                0x000014de                atomTimerCancel
+                0x0000155c                atomTimerTick
+                0x0000154a                atomTimeSet
+                0x00001538                atomTimeGet
+ .text          0x000016c2      0x5de build/atomqueue.o
+                0x00001a84                atomQueueGet
+                0x00001842                atomQueuePut
+                0x000016c2                atomQueueCreate
+                0x00001bf6                atomQueueDelete
+ .text          0x00001ca0      0x228 build/Tracer.o
+                0x00001ca0                TaskCreated
+                0x00001cce                RecordEvent
+                0x00001dca                MutexCreated
+                0x00001eae                TaskArrived
+                0x00001e10                TaskPreempted
+                0x00001db8                MutexDeleted
+                0x00001ddc                TaskCompleted
+                0x00001df6                TaskResumed
+                0x00001d9e                MutexGetted
+                0x00001d84                MutexPutted
+ .text          0x00001ec8      0x1ca build/SerialManager.o
+                0x00001ee8                uart_print
+                0x00001ec8                SendString
+ .text          0x00002092        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mulsi3.o)
+ .text          0x00002092        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_divmodhi4.o)
+ .text          0x00002092        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodsi4.o)
+ .text          0x00002092        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_exit.o)
+ .text          0x00002092        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clear_bss.o)
+ .text          0x00002092        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodhi4.o)
+ .text          0x00002092        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memcpy.o)
+ .text          0x00002092        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(itoa.o)
+ .text          0x00002092        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ltoa.o)
+ .text          0x00002092        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ultoa.o)
+ .text          0x00002092        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(iob.o)
+ .text          0x00002092        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(printf_p.o)
+ .text          0x00002092        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(vfprintf_std.o)
+ .text          0x00002092        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strnlen_P.o)
+ .text          0x00002092        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strnlen.o)
+ .text          0x00002092        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strrev.o)
+ .text          0x00002092        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(fputc.o)
+ .text          0x00002092        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ultoa_invert.o)
+                0x00002092                . = ALIGN (0x2)
+ *(.text.*)
+ .text.libgcc   0x00002092       0x3e c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mulsi3.o)
+                0x00002092                __mulsi3
+ .text.libgcc   0x000020d0       0x26 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_divmodhi4.o)
+                0x000020d0                __divmodhi4
+                0x000020d0                _div
+ .text.libgcc   0x000020f6       0x44 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodsi4.o)
+                0x000020f6                __udivmodsi4
+ .text.libgcc   0x0000213a        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_exit.o)
+ .text.libgcc   0x0000213a        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000213a       0x28 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodhi4.o)
+                0x0000213a                __udivmodhi4
+ .text.avr-libc
+                0x00002162       0x12 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memcpy.o)
+                0x00002162                memcpy
+ .text.avr-libc
+                0x00002174       0x42 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(itoa.o)
+                0x00002174                itoa
+ .text.avr-libc
+                0x000021b6       0x68 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ltoa.o)
+                0x000021b6                ltoa
+ .text.avr-libc
+                0x0000221e       0x4a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ultoa.o)
+                0x0000221e                ultoa
+ .text.avr-libc
+                0x00002268       0x46 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(printf_p.o)
+                0x00002268                printf_P
+ .text.avr-libc
+                0x000022ae      0x40c c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(vfprintf_std.o)
+                0x000022ae                vfprintf
+ .text.avr-libc
+                0x000026ba       0x16 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strnlen_P.o)
+                0x000026ba                strnlen_P
+ .text.avr-libc
+                0x000026d0       0x16 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strnlen.o)
+                0x000026d0                strnlen
+ .text.avr-libc
+                0x000026e6       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strrev.o)
+                0x000026e6                strrev
+ .text.avr-libc
+                0x00002706       0x58 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(fputc.o)
+                0x00002706                fputc
+ .text.avr-libc
+                0x0000275e       0xbc c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ultoa_invert.o)
+                0x0000275e                __ultoa_invert
+                0x0000281a                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x0000281a        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_exit.o)
+                0x0000281a                exit
+                0x0000281a                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x0000281a        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_exit.o)
+ *(.fini0)
+                0x0000281e                _etext = .
+
+.data           0x00800200        0xe load address 0x0000281e
+                0x00800200                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800200        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+ .data          0x00800200        0x0 build/mutex2.o
+ .data          0x00800200        0x0 build/atomport.o
+ .data          0x00800200        0x0 build/uart.o
+ .data          0x00800200        0xe build/tests-main.o
+ .data          0x0080020e        0x0 build/TracerPort.o
+ .data          0x0080020e        0x0 build/StopWatch.o
+ .data          0x0080020e        0x0 build/SerialPort.o
+ .data          0x0080020e        0x0 build/atomport-asm.o
+ .data          0x0080020e        0x0 build/atomkernel.o
+ .data          0x0080020e        0x0 build/atomsem.o
+ .data          0x0080020e        0x0 build/atommutex.o
+ .data          0x0080020e        0x0 build/atomtimer.o
+ .data          0x0080020e        0x0 build/atomqueue.o
+ .data          0x0080020e        0x0 build/Tracer.o
+ .data          0x0080020e        0x0 build/SerialManager.o
+ .data          0x0080020e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mulsi3.o)
+ .data          0x0080020e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_divmodhi4.o)
+ .data          0x0080020e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodsi4.o)
+ .data          0x0080020e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_exit.o)
+ .data          0x0080020e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clear_bss.o)
+ .data          0x0080020e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodhi4.o)
+ .data          0x0080020e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memcpy.o)
+ .data          0x0080020e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(itoa.o)
+ .data          0x0080020e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ltoa.o)
+ .data          0x0080020e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ultoa.o)
+ .data          0x0080020e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(iob.o)
+ .data          0x0080020e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(printf_p.o)
+ .data          0x0080020e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(vfprintf_std.o)
+ .data          0x0080020e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strnlen_P.o)
+ .data          0x0080020e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strnlen.o)
+ .data          0x0080020e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strrev.o)
+ .data          0x0080020e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(fputc.o)
+ .data          0x0080020e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ultoa_invert.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x0080020e                . = ALIGN (0x2)
+                0x0080020e                _edata = .
+                0x0080020e                PROVIDE (__data_end, .)
+
+.bss            0x0080020e      0xaf3
+                0x0080020e                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x0080020e        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6/crtm2560.o
+ .bss           0x0080020e       0x9f build/mutex2.o
+ .bss           0x008002ad        0x0 build/atomport.o
+ .bss           0x008002ad        0x5 build/uart.o
+ .bss           0x008002b2      0x15d build/tests-main.o
+ .bss           0x0080040f        0x0 build/TracerPort.o
+ .bss           0x0080040f        0x4 build/StopWatch.o
+ .bss           0x00800413        0x0 build/SerialPort.o
+ .bss           0x00800413        0x0 build/atomport-asm.o
+ .bss           0x00800413       0x18 build/atomkernel.o
+                0x00800413                tcbReadyQ
+                0x00800415                atomOSStarted
+ .bss           0x0080042b        0x0 build/atomsem.o
+ .bss           0x0080042b        0x0 build/atommutex.o
+ .bss           0x0080042b        0x6 build/atomtimer.o
+ .bss           0x00800431        0x0 build/atomqueue.o
+ .bss           0x00800431        0x0 build/Tracer.o
+ .bss           0x00800431        0x0 build/SerialManager.o
+ .bss           0x00800431        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_mulsi3.o)
+ .bss           0x00800431        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_divmodhi4.o)
+ .bss           0x00800431        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodsi4.o)
+ .bss           0x00800431        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_exit.o)
+ .bss           0x00800431        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_clear_bss.o)
+ .bss           0x00800431        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr6\libgcc.a(_udivmodhi4.o)
+ .bss           0x00800431        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(memcpy.o)
+ .bss           0x00800431        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(itoa.o)
+ .bss           0x00800431        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ltoa.o)
+ .bss           0x00800431        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ultoa.o)
+ .bss           0x00800431        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(iob.o)
+ .bss           0x00800431        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(printf_p.o)
+ .bss           0x00800431        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(vfprintf_std.o)
+ .bss           0x00800431        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strnlen_P.o)
+ .bss           0x00800431        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strnlen.o)
+ .bss           0x00800431        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(strrev.o)
+ .bss           0x00800431        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(fputc.o)
+ .bss           0x00800431        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(ultoa_invert.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x00800431      0x8c6 build/atomkernel.o
+                0x00800431                EventNumbers
+                0x00800433                EventIndex
+                0x00800435                EventBuffer
+                0x00800ccd                ResumedTask
+                0x00800ccf                TaskBuffer
+ COMMON         0x00800cf7        0x4 build/Tracer.o
+                0x00800cf7                OldTask
+                0x00800cf9                NewTask
+ COMMON         0x00800cfb        0x6 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr6\libc.a(iob.o)
+                0x00800cfb                __iob
+                0x00800d01                PROVIDE (__bss_end, .)
+                0x0000281e                __data_load_start = LOADADDR (.data)
+                0x0000282c                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800d01        0x0
+                0x00800d01                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800d01                PROVIDE (__noinit_end, .)
+                0x00800d01                _end = .
+                0x00800d01                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x1a0
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 build/mutex2.o
+ .debug_aranges
+                0x00000020       0x20 build/atomport.o
+ .debug_aranges
+                0x00000040       0x20 build/uart.o
+ .debug_aranges
+                0x00000060       0x20 build/tests-main.o
+ .debug_aranges
+                0x00000080       0x20 build/StopWatch.o
+ .debug_aranges
+                0x000000a0       0x20 build/SerialPort.o
+ .debug_aranges
+                0x000000c0       0x20 build/atomkernel.o
+ .debug_aranges
+                0x000000e0       0x20 build/atomsem.o
+ .debug_aranges
+                0x00000100       0x20 build/atommutex.o
+ .debug_aranges
+                0x00000120       0x20 build/atomtimer.o
+ .debug_aranges
+                0x00000140       0x20 build/atomqueue.o
+ .debug_aranges
+                0x00000160       0x20 build/Tracer.o
+ .debug_aranges
+                0x00000180       0x20 build/SerialManager.o
+
+.debug_pubnames
+                0x00000000      0x5da
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x21 build/mutex2.o
+ .debug_pubnames
+                0x00000021       0x6c build/atomport.o
+ .debug_pubnames
+                0x0000008d       0x31 build/uart.o
+ .debug_pubnames
+                0x000000be       0x1b build/tests-main.o
+ .debug_pubnames
+                0x000000d9       0x3c build/StopWatch.o
+ .debug_pubnames
+                0x00000115       0x34 build/SerialPort.o
+ .debug_pubnames
+                0x00000149      0x150 build/atomkernel.o
+ .debug_pubnames
+                0x00000299       0x6a build/atomsem.o
+ .debug_pubnames
+                0x00000303       0xab build/atommutex.o
+ .debug_pubnames
+                0x000003ae       0x81 build/atomtimer.o
+ .debug_pubnames
+                0x0000042f       0x5c build/atomqueue.o
+ .debug_pubnames
+                0x0000048b      0x11f build/Tracer.o
+ .debug_pubnames
+                0x000005aa       0x30 build/SerialManager.o
+
+.debug_info     0x00000000     0x328b
+ *(.debug_info)
+ .debug_info    0x00000000      0x5a0 build/mutex2.o
+ .debug_info    0x000005a0      0x281 build/atomport.o
+ .debug_info    0x00000821      0x333 build/uart.o
+ .debug_info    0x00000b54      0x3a3 build/tests-main.o
+ .debug_info    0x00000ef7        0x0 build/TracerPort.o
+ .debug_info    0x00000ef7       0xd5 build/StopWatch.o
+ .debug_info    0x00000fcc       0xaa build/SerialPort.o
+ .debug_info    0x00001076      0x73c build/atomkernel.o
+ .debug_info    0x000017b2      0x461 build/atomsem.o
+ .debug_info    0x00001c13      0x57c build/atommutex.o
+ .debug_info    0x0000218f      0x43d build/atomtimer.o
+ .debug_info    0x000025cc      0x5b7 build/atomqueue.o
+ .debug_info    0x00002b83      0x523 build/Tracer.o
+ .debug_info    0x000030a6      0x1e5 build/SerialManager.o
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000      0xeed
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x126 build/mutex2.o
+ .debug_abbrev  0x00000126       0xf9 build/atomport.o
+ .debug_abbrev  0x0000021f      0x10b build/uart.o
+ .debug_abbrev  0x0000032a      0x15c build/tests-main.o
+ .debug_abbrev  0x00000486        0x1 build/TracerPort.o
+ .debug_abbrev  0x00000487       0xa1 build/StopWatch.o
+ .debug_abbrev  0x00000528       0x65 build/SerialPort.o
+ .debug_abbrev  0x0000058d      0x1cb build/atomkernel.o
+ .debug_abbrev  0x00000758      0x14e build/atomsem.o
+ .debug_abbrev  0x000008a6      0x167 build/atommutex.o
+ .debug_abbrev  0x00000a0d      0x1b3 build/atomtimer.o
+ .debug_abbrev  0x00000bc0      0x147 build/atomqueue.o
+ .debug_abbrev  0x00000d07      0x108 build/Tracer.o
+ .debug_abbrev  0x00000e0f       0xde build/SerialManager.o
+
+.debug_line     0x00000000     0x215d
+ *(.debug_line)
+ .debug_line    0x00000000      0x2ea build/mutex2.o
+ .debug_line    0x000002ea      0x210 build/atomport.o
+ .debug_line    0x000004fa      0x12b build/uart.o
+ .debug_line    0x00000625      0x140 build/tests-main.o
+ .debug_line    0x00000765       0x24 build/TracerPort.o
+ .debug_line    0x00000789       0xe6 build/StopWatch.o
+ .debug_line    0x0000086f       0x9e build/SerialPort.o
+ .debug_line    0x0000090d      0x4a0 build/atomkernel.o
+ .debug_line    0x00000dad      0x378 build/atomsem.o
+ .debug_line    0x00001125      0x3e0 build/atommutex.o
+ .debug_line    0x00001505      0x2ab build/atomtimer.o
+ .debug_line    0x000017b0      0x54f build/atomqueue.o
+ .debug_line    0x00001cff      0x27c build/Tracer.o
+ .debug_line    0x00001f7b      0x1e2 build/SerialManager.o
+
+.debug_frame    0x00000000      0x500
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x40 build/mutex2.o
+ .debug_frame   0x00000040       0x60 build/atomport.o
+ .debug_frame   0x000000a0       0x30 build/uart.o
+ .debug_frame   0x000000d0       0x30 build/tests-main.o
+ .debug_frame   0x00000100       0x40 build/StopWatch.o
+ .debug_frame   0x00000140       0x30 build/SerialPort.o
+ .debug_frame   0x00000170       0xe0 build/atomkernel.o
+ .debug_frame   0x00000250       0x70 build/atomsem.o
+ .debug_frame   0x000002c0       0x60 build/atommutex.o
+ .debug_frame   0x00000320       0x80 build/atomtimer.o
+ .debug_frame   0x000003a0       0x80 build/atomqueue.o
+ .debug_frame   0x00000420       0xb0 build/Tracer.o
+ .debug_frame   0x000004d0       0x30 build/SerialManager.o
+
+.debug_str      0x00000000      0xaac
+ *(.debug_str)
+ .debug_str     0x00000000      0x1e4 build/mutex2.o
+                                0x230 (size before relaxing)
+ .debug_str     0x000001e4       0x7f build/atomport.o
+                                0x1fc (size before relaxing)
+ .debug_str     0x00000263       0x52 build/uart.o
+                                0x200 (size before relaxing)
+ .debug_str     0x000002b5       0x7a build/tests-main.o
+                                0x225 (size before relaxing)
+ .debug_str     0x0000032f       0x41 build/StopWatch.o
+                                 0xe5 (size before relaxing)
+ .debug_str     0x00000370       0x2c build/SerialPort.o
+                                 0xce (size before relaxing)
+ .debug_str     0x0000039c      0x2da build/atomkernel.o
+                                0x4a9 (size before relaxing)
+ .debug_str     0x00000676       0xe9 build/atomsem.o
+                                0x299 (size before relaxing)
+ .debug_str     0x0000075f       0x8c build/atommutex.o
+                                0x3d7 (size before relaxing)
+ .debug_str     0x000007eb       0xde build/atomtimer.o
+                                0x2c7 (size before relaxing)
+ .debug_str     0x000008c9      0x11a build/atomqueue.o
+                                0x30b (size before relaxing)
+ .debug_str     0x000009e3       0x5b build/Tracer.o
+                                0x382 (size before relaxing)
+ .debug_str     0x00000a3e       0x6e build/SerialManager.o
+                                 0xd9 (size before relaxing)
+
+.debug_loc      0x00000000     0x226a
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x13b build/mutex2.o
+ .debug_loc     0x0000013b       0x88 build/atomport.o
+ .debug_loc     0x000001c3       0xa2 build/uart.o
+ .debug_loc     0x00000265       0x1e build/tests-main.o
+ .debug_loc     0x00000283       0x18 build/StopWatch.o
+ .debug_loc     0x0000029b       0x36 build/SerialPort.o
+ .debug_loc     0x000002d1      0x6b6 build/atomkernel.o
+ .debug_loc     0x00000987      0x4c1 build/atomsem.o
+ .debug_loc     0x00000e48      0x3ab build/atommutex.o
+ .debug_loc     0x000011f3      0x2d3 build/atomtimer.o
+ .debug_loc     0x000014c6      0x863 build/atomqueue.o
+ .debug_loc     0x00001d29      0x339 build/Tracer.o
+ .debug_loc     0x00002062      0x208 build/SerialManager.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(build/mutex2.elf elf32-avr)
+LOAD linker stubs
+
+.debug_ranges   0x00000000       0x18
+ .debug_ranges  0x00000000       0x18 build/SerialManager.o
